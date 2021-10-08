@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: 2vh 2vw;
+}
+
+section>h2{
+    font-size: 15mm;
+    text-shadow: 1.5mm 1.5mm black;
+    Font-Family: Helvetica;
+    color:#fff;
+    background-color: #333;
+    padding: 5px;
+    text-align: center;
+}
+
+article{
+    background-color: darkgray;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin:12px;
+}
+
+section>article>p{
+    color: white;
+    margin: 1vw 3vw 0 3vw;
+    font-size: 7mm;
+}
+
+article>ul{
+    list-style: none;
+}
+
+article>ul>li{
+    margin-left: 3vw;
+    margin-right: 2vw;
+}
+
+article>ul>li:first-child{
+    font-size: 0.7cm;
+    background-color: #fff;
+}
+
+article>ul>li:first-child::before{
+    content:' \2022';
+    color: #333;
+    text-shadow: 1px 1px black;
+}
+
+article>ul>li:nth-of-type(2){
+    font-size: 1cm;
+}
+
+article>ul>li:nth-of-type(2)::before{
+    content:"\2022";
+    color: #333;
+    text-shadow: 1px 1px black;
+}
+
+article>ul>li:nth-of-type(3){
+    font-size: 1.2cm;
+    background-color: #fff;
+}
+
+article>ul>li:nth-of-type(3)::before{
+    content:"\2022";
+    color: #333;
+    text-shadow: 1px 1px black;
+}
+
+article>h3{
+    color: white;
+    margin: 10vh 0 10vh 3vw;
+    font-size: 2cm;
+}
